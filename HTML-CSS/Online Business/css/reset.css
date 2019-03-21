@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*
+ * css reset
+ */
+ body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table,
+ td, img, div, header, dl, dt, dd, input {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-size: 12px;
+ }
+
+ img {
+     border: none;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ input, select, textarea {
+     border: none;
+     outline: none;
+ }
+
+ textarea {
+     resize: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: #656566;
+ }
+
+ /*
+  * 清除浮动
+  */
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
